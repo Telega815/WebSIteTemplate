@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="root-context.xml"/>
+
+    <!--<bean name="bcryptEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>-->
+
+    <!--<bean name="userDetailsServiceImpl" class="ru.icerebro.nnb.services.implementations.UserDetailsServiceImpl">-->
+        <!--<constructor-arg name="passwordEncoder" ref="bcryptEncoder"/>-->
+        <!--&lt;!&ndash;<constructor-arg name="userDAO" ref="userDAOImpl"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg name="groupDAO" ref="groupDAOImpl"/>&ndash;&gt;-->
+    <!--</bean>-->
+
+</beans>
